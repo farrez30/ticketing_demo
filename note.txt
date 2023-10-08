@@ -1,0 +1,12 @@
+run:
+> npm run dev
+
+build:
+> npm run build 
+
+running fetch server:
+> json-server --watch --port 4000 ./_data/db.json
+
+or
+
+> npx json-server --watch --port 4000 ./_data/db.json
